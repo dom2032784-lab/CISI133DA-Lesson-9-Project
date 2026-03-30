@@ -98,6 +98,12 @@ th {
     padding: 10px;
 }
 /* Top headers */
+.home-business {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-weight: normal;
+}
 table tr:first-child th {
     border-bottom: 3px solid #333;
 }
