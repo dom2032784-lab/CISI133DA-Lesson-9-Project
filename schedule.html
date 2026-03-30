@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Course: CIS133DA
+        Section: # 17925
+        Lesson: 9
+    -->
+    <title>Schedule an Appointment</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dominic Romero">
+    <meta name="description" content="Schedule an appointment with Computer Systems Inc. for reliable and professional technology services. This page provides a detailed pricing list for home and business users, including data recovery, computer repair, and network setup. Users can also submit a project request form to receive a prompt response for service inquiries, support needs, or custom IT solutions.">
+    <meta name="keywords" content="computer repair, IT services, data recovery, web development, tech support">
+    <link rel="stylesheet" href="css/default_style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Computer Systems Inc.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="right"><a href="#" class="active">Book an Appointment</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+            <h2>Pricing List</h2>
+
+            <table>
+                <tr>
+                    <th>User Type</th>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <th rowspan="7">Home &amp; Business</th>
+                    <td>Data recovery &amp; transfer</td>
+                    <td rowspan="2">$40 fixed price</td>
+                </tr>
+                <tr>
+                    <td>Software Installation</td>
+                </tr>
+                <tr>
+                    <td>Computer Repair</td>
+                    <td rowspan="2">$60 per hour + hardware costs</td>
+                </tr>
+                <tr>
+                    <td>PC Setup and connection</td>
+                </tr>
+                <tr>
+                    <td>Computer Diagnosis</td>
+                    <td rowspan="2">$60 per hour</td>
+                </tr
+                <tr>
+                    <td>Wireless/Wired Network Setup</td>
+                </tr>
+                <tr>
+                    <td>Memory (RAM) Upgrade</td>
+                    <td>$90 fixed price</td>
+                </tr>
+
+                <tr>
+                <th rowspan="3">Business</th>
+                <td>24/7 Support Hotline</td>
+                <td>Starting at $300 per month</td>
+                </tr>
+            <tr>
+                <td>Web Development</td>
+                <td>Starting at $400 per week</td>
+            </tr>
+            <tr>
+                <td>Monthly software maintenance</td>
+                <td>Starting at $40 per hour</td>
+            </tr>              
+            </table>
+            
+            <h2>Pricing Request Form</h2>
+
+            <p>Computer Systems Inc. can email or call you today to schedule an appointment or project request. Submit the following form and we will get back to you promptly.</p>
+            
+            <form action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx" method="post">
+
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <p>How would you prefer we get back to you?</p>
+                <label><input type="checkbox" name="contact" value="phone"> Phone</label>
+                <label><input type="checkbox" name="contact" value="email"> Email</label>
+                
+                <p>Are you requesting for your home or business?</p>
+                <label><input type="radio" name="type" value="home"> Individual/Home</label>
+                <label><input type="radio" name="type" value="business"> Business</label>
+                <br>
+                <br>
+                <label for="comments">Additional Comments:</label>
+                <br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <br>
+                <button type="submit" value="Submit">
+                    Submit Form
+                </button>
+                <button type="reset" value="Reset Form">
+                    Reset Form
+                </button>
+
+            </form>
+        </main>
+        <footer>
+            <p><small>Photo by <a href="https://unsplash.com/@clintbustrillos">Clint Bustrillos</a><br>Copyright by MEID &copy; 2023</small></p>
+        </footer>
+    </div>
+</body>
+</html>
